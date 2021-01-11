@@ -52,7 +52,7 @@ function CreateArea(props) {
           placeholder="Take a note..."
           rows={isExpanded ? 3 : 1}
         />
-        <button onClick={submitNote}>Add</button>
+        <button onClick={submitNote}>&#xFF0B;</button>
       </form>
     </div>
   );
